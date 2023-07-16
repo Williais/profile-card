@@ -1,0 +1,128 @@
+/*  hsl(185, 75%, 39%)
+    hsl(229, 23%, 23%)
+    hsl(227, 10%, 46%)
+    hsl(0, 0%, 59%)     */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;800&display=swap');
+
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: -350px -500px;
+}
+
+main{
+    background-image: url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: 800px 200px;
+    min-height: 95vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Card{
+    background-color: white;
+    min-width: 20%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.274);
+
+}
+
+.Card > img{
+    width: 500px;
+    height: 180px;
+    border-radius: 15px 15px 0 0;
+}
+
+.profiledata > img{
+    position: relative;
+    top: -50px;
+    left: 200px;
+    border-radius: 50%;
+    border: solid 7px white;
+    margin: 0;
+}
+
+.profiledata h1{
+    position: relative;
+    top: -15px;
+    left: 10%;
+    font-size: 1.5em;
+    text-align: center;
+    display: inline-block;
+    color: hsl(229, 23%, 23%);
+}
+
+.profiledata h2{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    left: 12%;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: grey;
+}
+
+.profiledata h3{
+    position: relative;
+    top: -5px;
+    left: 0;
+    text-align: center;
+    margin: 0;
+    margin-top: -15px;
+    font-weight: 600;
+    color: grey;
+}
+
+.socialdata{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-top: 45px;
+    border-top: solid 0.8px rgba(128, 128, 128, 0.397);
+}
+
+.socialdata h1{
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: hsl(229, 23%, 23%);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.socialdata h3{
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    color: rgb(128, 128, 128);
+    font-size: 0.8em;
+}
+
+footer{
+    text-align: center;
+    background: transparent;
+}
+
+footer .attribution{
+    color: white;
+
+}
+
+footer .attribution a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
